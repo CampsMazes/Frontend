@@ -1,9 +1,18 @@
+import Collaborators from "../components/Collaborators"
+import Courses from "../components/Courses"
+import ExamPreparation from "../components/ExamPreparation"
+import Features from "../components/Features"
+import Hero from "../components/Hero"
 
 const Home = () => {
   return (
-    <div>
-        Hello world in Home page
-    </div>
+    <>
+      <Hero />
+      <Collaborators />
+      <Features />
+      <ExamPreparation />
+      <Courses />
+    </>
   )
 }
 
