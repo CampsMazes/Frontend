@@ -12,6 +12,9 @@ import rectangle584 from "./image/Rectangle 584.png"
 import youngStudent from "./image/young-student-woman-wearing-denim-jacket-eyeglasses-holding-colorful-folders-showing-thumb-up-pink-transformed 1.png"
 import hands from "./image/hands.png";
 import talking from "./image/talking.png";
+import test from "./image/testi-03.png.png"
+import image18 from "./image/image18.png"
+import Group19237 from "./image/Group19237.png"
 export {
     amityUni,
     colorLogo,
@@ -27,4 +30,7 @@ export {
     koc,
     hands,
     talking,
+    test,
+    image18,
+    Group19237,
 }; 
