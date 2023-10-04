@@ -18,7 +18,12 @@ export default {
         'textWhite': '#fff',
         'blue':'#EFF8FF',
         'dark':'#6B6B6B',
-        
+        'light':'#EFF8FF',
+        'dd':'#101828',
+        'ld':'#7F8490',
+        'mdd':"#171E2C",
+        "fdd":"#98A2B3",
+        'lightdark':'#D9D9D9',
       },
       fontFamily:{
         primary:'Poppins'

@@ -2,35 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   /* CSS Reset */
-  margin : 0; 
-  padding : 0; 
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-body{
-    /* @apply  font-primary text-[17px] leading-8; */
-    line-height: 1.5;
+body {
+  /* @apply  font-primary text-[17px] leading-8; */
+  line-height: 1.5;
 }
-h1,h2,h3,h4,h5,h6{
-    @apply  leading-[120%];
-    line-height: 1.5;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply leading-[120%];
+  line-height: 1.5;
 }
+
 .swiper {
   width: 100%;
   height: 100%;
 }
 
 .swiper-slide {
- 
+
   font-size: 18px;
   background: #fff;
   border-radius: 20px;
   /* Center slide text vertically */
   display: flex;
   background-position: center;
-  max-width:398px;
+  max-width: 398px;
   overflow: hidden;
   margin-left: 12px;
   margin-right: 12px;
@@ -40,244 +47,314 @@ h1,h2,h3,h4,h5,h6{
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 .swiper-slide img {
   display: block;
-  
+
   object-fit: cover;
 }
 
-.card-content{
+.card-content {
   padding: 16px;
-  background-color: #fff; /* Set card content background color */
-  flex: 1; 
+  background-color: #fff;
+  /* Set card content background color */
+  flex: 1;
   border-radius: 20px;
-  
+
 }
 
-.h1{
-    @apply text-[72px] xl:text-[72px] font-semibold;
+.h1 {
+  @apply text-[72px] xl:text-[72px] font-semibold;
 }
-.h2{
-    @apply text-[30px] xl:text-[48px] font-semibold capitalize tracking-[0.44px];
+
+.h2 {
+  @apply text-[30px] xl:text-[48px] font-semibold capitalize tracking-[0.44px];
 }
-.h3{
-    @apply text-[20px] xl:text-[36px] font-semibold;
+
+.h3 {
+  @apply text-[20px] xl:text-[36px] font-semibold;
 }
-.h4{
-    @apply text-[20px] xl:text-[30px] font-semibold capitalize tracking-[0.44px];
+
+.h4 {
+  @apply text-[20px] xl:text-[30px] font-semibold capitalize tracking-[0.44px];
 }
-.h5{
-    @apply text-[18px] xl:text-[24px] font-semibold;
+
+.h5 {
+  @apply text-[18px] xl:text-[24px] font-semibold;
 }
-.h6{
-    @apply text-[16px] xl:text-[20px] font-semibold capitalize tracking-[0.44px];
+
+.h6 {
+  @apply text-[16px] xl:text-[20px] font-semibold capitalize tracking-[0.44px];
 }
-.imag{
+
+.imag {
   border-radius: 100px;
 }
-.btn{
-    @apply px-4 py-1.5 font-semibold bg-primary text-white tracking-[1.02px] flex items-center justify-center transition-all;
-}
-.btn-outline{
-    @apply px-4 py-1.5 rounded-md font-semibold  text-white tracking-[1.02px] flex items-center justify-center transition-all;
+
+.btn {
+  @apply px-4 py-1.5  rounded-md font-semibold bg-primary text-white tracking-[1.02px] flex items-center justify-center transition-all;
 }
 
-.btn-outline-2{
-  @apply px-4 py-1.5 rounded-md font-semibold  text-primary tracking-[1.02px] flex items-center justify-center transition-all;
+.btn-outline {
+  @apply px-4 py-1.5 rounded-md font-semibold text-white tracking-[1.02px] flex items-center justify-center transition-all;
 }
-.btn-text{
-  font-size:18px;
+
+.btn-outline-2 {
+  @apply px-4 py-1.5 rounded-md font-semibold text-primary tracking-[1.02px] flex items-center justify-center transition-all;
 }
+.btn-outline-3 {
+  @apply px-4 py-1.5 rounded-md font-semibold tracking-[1.02px] flex items-center justify-center transition-all;
+}
+.btn-text {
+  font-size: 18px;
+}
+
+
 .rounded-image {
   overflow: hidden;
-  border-top-left-radius: 10px; /* Round the top-left corner */
-  border-top-right-radius: 10px; /* Round the top-right corner */
-}
-.search-btn{
-    width: 525px;
-    height: 54px;
-    flex-shrink: 0;
-}
-.btn-lg{
-    @apply h-64 px-[50px] ;
-}
-.btn-md{
-    @apply h-48 px-[50px] ;
-}
-.btn-sm{
-    @apply h-32 px-[10px];
-}
-.btn-accent{
-    /* @apply bg-primary text-white; */
-}
-.section{
-    @apply py-12 xl:py-[150px];
+  border-top-left-radius: 10px;
+  /* Round the top-left corner */
+  border-top-right-radius: 10px;
+  /* Round the top-right corner */
 }
 
-.slide-container-2{
+.search-btn {
+  width: 525px;
+  height: 54px;
+  flex-shrink: 0;
+}
+
+
+
+.btn-lg {
+  @apply h-64 px-[50px];
+}
+
+.btn-md {
+  @apply h-48 px-[50px];
+}
+
+.btn-sm {
+  @apply h-32 px-[10px];
+}
+
+.btn-accent {
+  /* @apply bg-primary text-white; */
+}
+
+.section {
+  @apply py-12 xl:py-[150px];
+}
+
+.slide-container-2 {
   max-width: 100%;
   padding: 40px 0;
   overflow: hidden;
-  margin-left: auto; /* Center the container */
+  margin-left: auto;
+  /* Center the container */
   margin-right: auto;
 }
+
 @media screen and (max-width: 768px) {
-  .slide-content{
+  .slide-content {
     margin: 0 10px;
   }
-  .swiper-navBtn{
+
+  .swiper-navBtn {
     display: none;
   }
 }
-  
-  .course-img{
-    border-radius: 20px;
-    width: 398px;
-    position: relative; /* Add position relative to the image container */
-    top: -25px; /* Adjust the value to move the image up or down */
-  }
-  .slide-content{
-    margin: 0 40px;
-    overflow: hidden;
-    border-radius: 25px;
-  }
-  .card {
-    border-radius: 20px; /* Add rounded border */
-    overflow: hidden; /* Hide overflow content */
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-  .image-content,
-  .card-content{
-    display: flex;
-    flex-direction: column;
 
-    padding: 10px 14px;
-    
-  }
-  .image-content{
-    position: relative;
-    row-gap: 5px;
-    
-    padding: 25px 0;
-  }
-  .overlay{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    
-    border-radius: 25px 25px 0 25px;
-  }
-  .overlay::before,
-  .overlay::after{
-    content: '';
-    position: absolute;
-    right: 0;
-    bottom: -40px;
-    height: 40px;
-    width: 40px;
-  
-  }
-  .overlay::after{
-    border-radius: 0 25px 0 0;
-    background-color: #FFF;
-  }
-  .card-image{
-    position: relative;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    background: #FFF;
-    padding: 3px;
-  }
-  .card-image .card-img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    
-  }
-  .swiper-slide-2 {
-    width: calc(20% - 24px); /* Calculate the width for 5 slides with spacing */
-    margin-right: 12px;
-    margin-left: 12px;
+.course-img {
+  border-radius: 20px;
+  width: 398px;
+  position: relative;
+  /* Add position relative to the image container */
+  top: -25px;
+  /* Adjust the value to move the image up or down */
 }
-  .name{
-    font-size: 18px;
-    font-weight: 500;
-    color: #333;
+
+.slide-content {
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.card {
+  border-radius: 20px;
+  /* Add rounded border */
+  overflow: hidden;
+  /* Hide overflow content */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.image-content,
+.card-content {
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px 14px;
+
+}
+
+.image-content {
+  position: relative;
+  row-gap: 5px;
+
+  padding: 25px 0;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+
+  border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before,
+.overlay::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+
+}
+
+.overlay::after {
+  border-radius: 0 25px 0 0;
+  background-color: #FFF;
+}
+
+.card-image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+}
+
+.card-image .card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
+
+.swiper-slide-2 {
+  width: calc(20% - 24px);
+  /* Calculate the width for 5 slides with spacing */
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+.hed {
+  font-size: 45px;
+}
+
+.dec {
+  font-size: 16px;
+}
+
+.description {
+  font-size: 14px;
+  color: #707070;
+}
+
+.description-2 {
+  font-size: 14px;
+  color: #2EAAFA;
+}
+
+.button {
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: #4070F4;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: #265DF2;
+}
+
+.swiper-navBtn {
+  color: #6E93f7;
+  transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover {
+  color: #4070F4;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 35px;
+}
+
+.swiper-button-next {
+  right: 5px;
+  /* Adjust this value to move the next arrow to the right */
+  transform: translateY(-50%);
+  /* Adjust this value to center the arrow vertically */
+}
+.name-2 {
+  color: #1E1926;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.swiper-button-prev {
+  left: 5px;
+  /* Adjust this value to move the prev arrow to the left */
+  transform: translateY(-50%);
+  /* Adjust this value to center the arrow vertically */
+}
+
+.swiper-pagination-bullet {
+  background-color: #6E93f7;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #4070F4;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content {
+    margin: 0 10px;
   }
-  .hed{
-    font-size: 45px;
+
+  .swiper-navBtn {
+    display: none;
   }
-  .dec{
-    font-size: 16px;
-  }
-  .description{
-    font-size: 14px;
-    color: #707070; 
-  }
-  .description-2{
-    font-size: 14px;
-    color: #2EAAFA; 
-  }
-  .button{
-    border: none;
-    font-size: 16px;
-    color: #FFF;
-    padding: 8px 16px;
-    background-color: #4070F4;
-    border-radius: 6px;
-    margin: 14px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  .button:hover{
-    background: #265DF2;
-  }
-  
-  .swiper-navBtn{
-    color: #6E93f7;
-    transition: color 0.3s ease;
-  }
-  .swiper-navBtn:hover{
-    color: #4070F4;
-  }
-  .swiper-navBtn::before,
-  .swiper-navBtn::after{
-    font-size: 35px;
-  }
-  .swiper-button-next{
-    right: 0;
-  }
-  .swiper-button-prev{
-    left: 0;
-  }
-  .swiper-pagination-bullet{
-    background-color: #6E93f7;
-    opacity: 1;
-  }
-  .swiper-pagination-bullet-active{
-    background-color: #4070F4;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .slide-content{
-      margin: 0 10px;
-    }
-    .swiper-navBtn{
-      display: none;
-    }
-  }
-  
-  .ele {
-    background: linear-gradient(288deg, #2EAAFA -44.83%, #1F2F98 62.37%);
+}
+
+.ele {
+  background: linear-gradient(288deg, #2EAAFA -44.83%, #1F2F98 62.37%);
 }
 
 /* .swiper-horizontal >.swiper-pagination-bullets .swiper-pagination-bullets,
