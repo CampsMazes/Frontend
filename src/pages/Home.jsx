@@ -7,6 +7,7 @@ import Problem from "../components/Problem"
 import Feedback from "../components/Feedback"
 import Counsellor from "../components/Counsellor"
 import Faq from "../components/Faq"
+
 const Home = () => {
   return (
     <>

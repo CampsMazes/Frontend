@@ -1,3 +1,4 @@
+
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -8,6 +9,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { rectangle584 } from './../assets'
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
+
 const Courses = () => {
     return (
         <section className="ele text-white mt-8 py-12 xl:pt-12 xl:pb-0 overflow-hidden">
@@ -17,6 +19,7 @@ const Courses = () => {
                     <span className="text-white text-3xl">Popular Courses</span>
                 </div>
                 <div className="ml-auto">
+
                     <button className="btn-outline border border-white text-white hover:bg-white hover:text-primary">View All Courses</button>
                 </div>
             </div>

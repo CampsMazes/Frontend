@@ -13,6 +13,7 @@ import { image4 } from './../assets'
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 
 export default function ExamPreparation() {
+
     return (
         <section id="courses" className="mt-8 py-12 xl:pt-12 xl:pb-0 overflow-hidden">
             <div className="container mx-auto h-full flex flex-col xl:flex-row items-center justify-center text-center">
@@ -20,6 +21,7 @@ export default function ExamPreparation() {
                     <strong className="text-5xl">Prepare For Exams</strong><br />
                 </p>
             </div>
+
             <div className="mt-12 mb-12 flex flex-col gap-y-16 lg:flex-row lg:gap-x-10 lg:gap-y-0">
                 <Swiper
                     slidesPerView={5}
@@ -309,3 +311,4 @@ export default function ExamPreparation() {
         </section>
     );
 };
+

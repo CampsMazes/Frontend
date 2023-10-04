@@ -1,8 +1,11 @@
+
 import { Group19237 } from "../assets";
+
 const Header = () => {
   return (
     <header className="py-8 lg:pt-6 lg:pb-14">
       <div className="container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between gap-y-4 lg:gap-y-0">
+
         <div className="ml-12 flex justify-center lg:justify-normal">
           <a href="#">
             <div className="flex">
@@ -129,6 +132,7 @@ const Header = () => {
           <div className="flex items-center">
             <div><button className="btn hover:bg-white hover:text-primary">Sign Up</button></div>
           </div>
+
         </div>
       </div>
     </header>

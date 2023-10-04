@@ -4,6 +4,7 @@ import duke from "./image/duke.png.png"
 import Ellipse167 from "./image/Ellipse 167.png"
 import group19291 from "./image/Group 19291.png"
 import image4 from "./image/image4.png"
+
 import kennesaw from "./image/kennesaw.png.png"
 import koc from "./image/koc.png.png"
 import kuLogo from "./image/ku logo.png"
@@ -15,6 +16,7 @@ import talking from "./image/talking.png";
 import test from "./image/testi-03.png.png"
 import image18 from "./image/image18.png"
 import Group19237 from "./image/Group19237.png"
+
 export {
     amityUni,
     colorLogo,

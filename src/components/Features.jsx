@@ -376,6 +376,7 @@ const Features = () => {
 
         </section>
     )
+  
 }
 
 export default Features
