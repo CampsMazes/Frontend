@@ -5,12 +5,12 @@ export default function Problem() {
         <section className="hero py-12 xl:pt-12 xl:pb-0 overflow-hidden">
             <div className="container mx-auto h-full">
                 <div className="flex flex-col xl:flex-row items-center justify-between h-full">
-                    <div className="ml-48 imag hero__img hidden xl:flex max-w-[814px] self-end">
+                    <div className="imag hero__img hidden xl:flex max-w-[814px] self-end">
                         <div>
                             <img src={hands} alt="hands" className='rounded-lg'/>
                         </div>
                     </div>
-                    <div className="mr-48 text-center xl:text-left xl:ml-8"> {/* Adjust text alignment and ml values */}
+                    <div className="text-center xl:text-left xl:ml-8"> {/* Adjust text alignment and ml values */}
                         <div>
                             <strong className='text-secondary mb-10'>Advantage Features</strong>
                             <h1 className="text-4xl hed xl:text-5xl font:bold mt-5">
@@ -42,7 +42,7 @@ export default function Problem() {
             </div>
             <div className=" mt-36 container mx-auto h-full">
                 <div className="flex flex-col xl:flex-row items-center justify-between h-full">
-                    <div className="text-center xl:text-left xl:ml-48"> {/* Adjust text alignment and ml values */}
+                    <div className="text-center xl:text-left "> {/* Adjust text alignment and ml values */}
                         <div>
                             <strong className='text-secondary mb-10'>Advantage Features</strong>
                             <h1 className="text-4xl hed xl:text-5xl font:bold mt-5">
@@ -67,7 +67,7 @@ export default function Problem() {
                             </div>
                         </div>
                     </div>
-                    <div className="mr-60 imag hero__img hidden xl:flex max-w-[814px] self-end">
+                    <div className="imag hero__img hidden xl:flex max-w-[814px] self-end">
                         <div>
                             <img src={talking} alt="talking" className="rounded-lg" />
                         </div>

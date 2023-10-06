@@ -39,8 +39,8 @@ export default function Faq() {
         <div>
             <section className="bg-blue hero py-12 xl:pt-12 xl:pb-16 overflow-hidden">
                 <div className="container mx-auto h-full">
-                    <div className="ml-16 flex flex-col xl:flex-row item-center justify-between h-full">
-                        <div>
+                    <div className="flex flex-col xl:flex-row item-center justify-between h-full">
+                        <div className="mr-24">
                             <div>
                                 <strong className="text-secondary text-xl">FAQ</strong><br />
                                 <strong className="text-4xl xl:text-6xl font:bold" style={{ lineHeight: "1.5" }}>
@@ -74,13 +74,17 @@ export default function Faq() {
                             </div>
 
                         </div>
-                        <div className="mt-12 max-w-3xl mx-auto p-4">
+                        <div className="mt-12 ml-24 mx-auto p-5" style={{width:"765px"}}>
                             {faqData.map((item, index) => (
                                 <div
-                                    className={`bg-white rounded-lg p-4 mb-4 cursor-pointer relative w-full ${openQuestion === index ? 'h-auto' : 'w-[745px]'
-                                        }`}
+                                    className={`bg-white rounded-lg p-4 mb-4 cursor-pointer relative w-full`}
                                     key={index}
                                     onClick={() => toggleQuestion(index)}
+                                    style={{
+                                        height: openQuestion === index ? 'auto' : '60px', // Set a fixed height for the box
+                                        overflow: 'hidden', // Hide overflow when box is closed
+                                        width: '100%',
+                                    }}
                                 >
                                     <div className="flex items-center justify-between">
                                         <h3 className="text-lg font-semibold">{item.question}</h3>
@@ -92,12 +96,14 @@ export default function Faq() {
                                     <div
                                         className={`${openQuestion === index ? 'block' : 'hidden'
                                             } bg-white transition-height duration-300 ease-in-out overflow-hidden w-full`}
-                                        style={{ maxHeight: openQuestion === index ? "1000px" : "0" }}
+                                        style={{ maxHeight: openQuestion === index ? "1000px" : "0", width: '100%' }}
                                     >
                                         <p className="mt-2 text-gray-700">{item.answer}</p>
                                     </div>
                                 </div>
                             ))}
+
+
                         </div>
                     </div>
                 </div>
