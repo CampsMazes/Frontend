@@ -8,16 +8,16 @@ const Footer = () => {
           <div className="flex flex-col xl:flex-row item-center justify-between h-full">
             <div>
               <div>
-                <img src={Group19237} alt="/" className="mt-12 ml-16" />
+                <img src={Group19237} alt="/" className="mt-12" />
               </div>
 
-              <div className="ml-16 mt-6 text-xl text-ld">
+              <div className="mt-6 text-xl text-ld">
                 Faucibus quis fringilla scelerisque dui. Amet <br />
                 parturient dui venenatis amet sagittis viverra<br />
                 vel tincidunt. Orci tincidunt.
               </div>
             </div>
-            <div className="flex" style={{ marginRight: "150px" }}>
+            <div className="flex" >
               <div className="mt-16">
                 <h1 className="text-white text-2xl">Company</h1>
                 <div className="mt-4">
@@ -84,10 +84,10 @@ const Footer = () => {
       </section>
       <section className="bg-mdd py-8 lg:pt-6 lg:pb-5">
         <div className="container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between gap-y-4 lg:gap-y-0">
-          <div className="text-fdd ml-12 flex justify-center lg:justify-normal">
+          <div className="text-fdd flex justify-center lg:justify-normal">
             © 2023 CampusMaze. All rights reserved.
           </div>
-          <div className="flex flex-col gap-y-4 mr-12 lg:flex-row lg:gap-x-10 lg:gap-y-0">
+          <div className="flex flex-col gap-y-4 lg:flex-row lg:gap-x-10 lg:gap-y-0">
             <div className="flex items-center">
 
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">

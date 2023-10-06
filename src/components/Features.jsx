@@ -12,7 +12,7 @@ const Features = () => {
             </div>
             <div class="mt-12 mb-12 flex flex-col gap-y-16 lg:flex-row lg:gap-x-20 lg:gap-y-0">
 
-                <div class="container my-12 mx-auto px-4 md:px-12 ml-auto" style={{ paddingLeft: "120px" }} >
+                <div class="container my-12 mx-auto px-4 md:px-12 lg:px-4 ml-auto">
                     <div class="flex flex-wrap -mx-1 lg:-mx-4">
 
                         {/* <!-- Column --> */}

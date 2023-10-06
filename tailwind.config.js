@@ -5,6 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens:{
+      xs: '480px',
+      sm: '576px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1200px',
+      xxl:'1600px',  
+    },
     container:{
       padding:{
         DEFAULT:'15px'
@@ -24,6 +32,7 @@ export default {
         'mdd':"#171E2C",
         "fdd":"#98A2B3",
         'lightdark':'#D9D9D9',
+        'ultra':'#1E1926',
       },
       fontFamily:{
         primary:'Poppins'

@@ -2,7 +2,7 @@ import { youngStudent } from "../assets"
 
 const Hero = () => {
     return (
-        <section className="ml-16 hero py-12 xl:pt-12 xl:pb-0 overflow-hidden">
+        <section className="hero py-12 xl:pt-12 xl:pb-0 overflow-hidden">
             <div className="container mx-auto h-full">
                 <div className="flex flex-col xl:flex-row item-center justify-between h-full">
                     <div>
@@ -19,7 +19,7 @@ const Hero = () => {
                             your educational journey. Campsmaze is here to help you,<br />
                             offering guidance & resources to make an informed choice.
                         </div>
-                        <div className="mt-12">
+                        <div className="mt-12 ">
                             <form>
                                 <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
                                 <div className="relative flex items-center">
