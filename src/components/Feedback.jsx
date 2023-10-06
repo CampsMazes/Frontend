@@ -12,7 +12,7 @@ import { test } from './../assets'
 export default function Feedback() {
     return (
         <div>
-            <section class="bg-light mt-12  py-1 xl:pt-12 xl:pb-16 overflow-hidden">
+            <section class="bg-light mt-12  py-1 pt-12 pb-16 overflow-hidden">
                 <div class="container mx-auto h-full flex flex-col xl:flex-row items-center justify-center text-center">
                     <p class="relative mb-4">
                         <strong class="text-4xl">Students Feedback</strong><br />
@@ -33,20 +33,20 @@ export default function Feedback() {
                             }}
                             breakpoints={{
                                 640: {
-                                    slidesPerView: 1, // Ensure that 3 slides are displayed for all breakpoints
-                                    spaceBetween: 20,
+                                    slidesPerView: 1,
+                                    spaceBetween: 1, // Adjust this value for smaller screens
                                 },
                                 768: {
-                                    slidesPerView: 2, // Ensure that 3 slides are displayed for all breakpoints
-                                    spaceBetween: 40,
+                                    slidesPerView: 2,
+                                    spaceBetween: 10, // Adjust this value for medium screens
                                 },
-                                1024: {
-                                    slidesPerView: 3, // Ensure that 3 slides are displayed for all breakpoints
-                                    spaceBetween: 50,
+                                1324: {
+                                    slidesPerView: 3,
+                                    spaceBetween: 3, // Adjust this value for larger screens
                                 },
                             }}
-
-                            modules={[Autoplay]}
+                            navigation={true}
+                            modules={[Autoplay,Navigation]}
                             className="mySwiper"
                         >
                             {/* Your slide content here */}
@@ -54,8 +54,8 @@ export default function Feedback() {
                             <SwiperSlide>
                                 <div className="card-wrapper swiper-wrapper">
                                     <div className="card">
-                                        <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
                                         <div className="card-content">
+                                            <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
                                             <p className="ml-12 name-2">“ I able to prove potential<br />
                                                 employers that i have a solid<br />
                                                 understanding of computers &<br />
@@ -81,13 +81,9 @@ export default function Feedback() {
 
                             <SwiperSlide>
                                 <div className="card-wrapper swiper-wrapper">
-                                    <div className="card swiper-slide">
-                                        <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
-
-
+                                    <div className="card">
                                         <div className="card-content">
-
-
+                                            <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
                                             <p className="ml-12 name-2">“ I able to prove potential<br />
                                                 employers that i have a solid<br />
                                                 understanding of computers &<br />
@@ -112,12 +108,9 @@ export default function Feedback() {
 
                             <SwiperSlide>
                                 <div className="card-wrapper swiper-wrapper">
-                                    <div className="card swiper-slide">
-                                        <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
-
-
+                                    <div className="card">
                                         <div className="card-content">
-
+                                            <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
                                             <p className="ml-12 name-2">“ I able to prove potential<br />
                                                 employers that i have a solid<br />
                                                 understanding of computers &<br />
@@ -142,12 +135,9 @@ export default function Feedback() {
 
                             <SwiperSlide>
                                 <div className="card-wrapper swiper-wrapper">
-                                    <div className="card swiper-slide">
-                                        <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
-
-
+                                    <div className="card">
                                         <div className="card-content">
-
+                                            <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
                                             <p className="ml-12 name-2">“ I able to prove potential<br />
                                                 employers that i have a solid<br />
                                                 understanding of computers &<br />
@@ -172,12 +162,9 @@ export default function Feedback() {
 
                             <SwiperSlide>
                                 <div className="card-wrapper swiper-wrapper">
-                                    <div className="card swiper-slide">
-                                        <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
-
-
+                                    <div className="card">
                                         <div className="card-content">
-
+                                            <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
                                             <p className="ml-12 name-2">“ I able to prove potential<br />
                                                 employers that i have a solid<br />
                                                 understanding of computers &<br />
@@ -202,12 +189,9 @@ export default function Feedback() {
 
                             <SwiperSlide>
                                 <div className="card-wrapper swiper-wrapper">
-                                    <div className="card swiper-slide">
-                                        <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
-
-
+                                    <div className="card">
                                         <div className="card-content">
-
+                                            <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
                                             <p className="ml-12 name-2">“ I able to prove potential<br />
                                                 employers that i have a solid<br />
                                                 understanding of computers &<br />
@@ -232,12 +216,9 @@ export default function Feedback() {
 
                             <SwiperSlide>
                                 <div className="card-wrapper swiper-wrapper">
-                                    <div className="card swiper-slide">
-                                        <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
-
-
+                                    <div className="card">
                                         <div className="card-content">
-
+                                            <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
                                             <p className="ml-12 name-2">“ I able to prove potential<br />
                                                 employers that i have a solid<br />
                                                 understanding of computers &<br />
@@ -262,12 +243,9 @@ export default function Feedback() {
 
                             <SwiperSlide>
                                 <div className="card-wrapper swiper-wrapper">
-                                    <div className="card swiper-slide">
-                                        <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
-
-
+                                    <div className="card">
                                         <div className="card-content">
-
+                                            <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
                                             <p className="ml-12 name-2">“ I able to prove potential<br />
                                                 employers that i have a solid<br />
                                                 understanding of computers &<br />
@@ -292,12 +270,9 @@ export default function Feedback() {
 
                             <SwiperSlide>
                                 <div className="card-wrapper swiper-wrapper">
-                                    <div className="card swiper-slide">
-                                        <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
-
-
+                                    <div className="card">
                                         <div className="card-content">
-
+                                            <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
                                             <p className="ml-12 name-2">“ I able to prove potential<br />
                                                 employers that i have a solid<br />
                                                 understanding of computers &<br />
@@ -325,7 +300,7 @@ export default function Feedback() {
             </section>
             <section className="bg-primary xl:pb-16 text-white py-16 xl:pt-12 xl:pb-0 overflow-hidden">
                 <div className="container mt-6 mx-auto h-full px-12 flex flex-col xl:flex-row items-center justify-start">
-                    <div className="mb-2 ml-32">
+                    <div className="mb-2">
                         <h2 className="text-white font-semibold text-3xl">Join more than <span className='text-secondary'>1 million</span><br />
                         <span className='text-secondary'>learners</span> worldwide</h2>
                     </div>
