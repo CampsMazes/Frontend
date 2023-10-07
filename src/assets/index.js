@@ -81,3 +81,8 @@ export {
     studentAccommodation, 
     visaProcessing,
 }; 
+
+// popular courses section
+
+import popularCoursesImg from './images/Courses/popular-courses.svg'; 
+export {popularCoursesImg}
