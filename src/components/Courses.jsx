@@ -8,18 +8,21 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { rectangle584 } from './../assets'
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
+
 const Courses = () => {
     return (
-        <section className="ele text-white mt-8 py-12 xl:pt-12 xl:pb-16 overflow-hidden">
-            <div className="container ml-16 mx-auto h-full px-12 flex flex-col xl:flex-row items-center justify-start">
+        <section className="ele text-white">
+        
+            <div className=" py-8 px-10 md:px-16 lg:px-20 xl:px-24 flex items-center justify-between">
                 <div className="mb-4">
                     <h2 className="text-secondary">Always on Top</h2>
                     <span className="text-white text-3xl">Popular Courses</span>
                 </div>
-                <div className="ml-auto">
+                <div className="">
                     <button className="btn-outline border border-white text-white hover:bg-white hover:text-primary">View All Courses</button>
                 </div>
             </div>
+
             <div className='flex justify-center items-center p-8 px-22'>
 
 
@@ -54,7 +57,6 @@ const Courses = () => {
 
                     modules={[Autoplay, Navigation, Pagination]}
                 >
-                    {/* Your slide content here */}
 
                     <SwiperSlide>
                         <div className="flex items-center justify-center flex-col p-2 md:p-4 mb-12">

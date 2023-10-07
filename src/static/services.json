@@ -1,0 +1,38 @@
+ [
+    {
+        "title": "Career counselling",
+        "description": "Get a full view so you know where to save. Track spending, data keep tab subscription lorem ipsum text",
+        "image": "counselling",
+        "redirectTo": "#"
+    }, 
+    {
+        "title": "College Shortlisting",
+        "description": "Get a full view so you know where to save. Track spending, data keep tab subscription lorem ipsum text",
+        "image": "collegeShortlising",
+        "redirectTo": "#"
+    }, 
+    {
+        "title": "Admission Guidance",
+        "description": "Get a full view so you know where to save. Track spending, data keep tab subscription lorem ipsum text",
+        "image": "admissionGuidance",
+        "redirectTo": "#"
+    }, 
+    {
+        "title": "Visa Processing",
+        "description": "Get a full view so you know where to save. Track spending, data keep tab subscription lorem ipsum text",
+        "image": "visaProcessing",
+        "redirectTo": "#"
+    }, 
+    {
+        "title": "Scholarship",
+        "description": "Get a full view so you know where to save. Track spending, data keep tab subscription lorem ipsum text",
+        "image": "scholarships",
+        "redirectTo": "#"
+    }, 
+    {
+        "title": "Student Accommodation",
+        "description": "Get a full view so you know where to save. Track spending, data keep tab subscription lorem ipsum text",
+        "image": "studentAccomodation",
+        "redirectTo": "#"
+    }
+]
