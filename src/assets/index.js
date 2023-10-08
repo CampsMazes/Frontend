@@ -97,4 +97,17 @@ export {visaProcess, accommodation};
 // Footer
 
 import campsMazeLogoFooter from './images/Footer/camps-maze-logo.svg'; 
-export {campsMazeLogoFooter}; 
+import facebook from './images/Footer/facebook.svg'; 
+import github from './images/Footer/github.svg'; 
+import linkedin from './images/Footer/linkedin.svg'; 
+import twitter from './images/Footer/twitter.svg'; 
+import website from './images/Footer/website.svg'; 
+
+export {
+    campsMazeLogoFooter,
+    facebook, 
+    github, 
+    linkedin, 
+    twitter, 
+    website,
+}; 

@@ -50,8 +50,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                         <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -67,8 +67,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -84,8 +84,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -101,8 +101,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -118,8 +118,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -135,8 +135,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -152,8 +152,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -169,8 +169,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -186,8 +186,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -203,8 +203,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -220,8 +220,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -237,8 +237,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -254,8 +254,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -271,8 +271,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -288,8 +288,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
