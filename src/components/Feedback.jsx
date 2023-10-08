@@ -12,14 +12,15 @@ import { test } from './../assets'
 export default function Feedback() {
     return (
         <div>
-            <section class="bg-light mt-12  py-1 pt-12 pb-16 overflow-hidden">
-                <div class="container mx-auto h-full flex flex-col xl:flex-row items-center justify-center text-center">
-                    <p class="relative mb-4">
-                        <strong class="text-4xl">Students Feedback</strong><br />
-                        <strong class="text-secondary">We have quality partners in variety of destinations around the
+            <section className="bg-light mt-12 py-1 pt-12 pb-16 overflow-hidden">
+                <div className="container mx-auto h-full flex flex-col xl:flex-row items-center justify-center text-center">
+                    <p className="relative mb-4">
+                        <strong className="text-4xl">Students Feedback</strong><br />
+                        <strong className="text-secondary">We have quality partners in variety of destinations around the
                             globe.</strong>
                     </p>
                 </div>
+
                 <div className='slide-container-2' style={{ maxWidth: 'calc(100% - 80px)', }}>
 
                     <div className="swiper-container" style={{ maxWidth: 'calc(100% - 100px)', marginLeft: '50px' }}>
@@ -32,6 +33,10 @@ export default function Feedback() {
                                 disableOnInteraction: false,
                             }}
                             breakpoints={{
+                                0:{
+                                    slidesPerView: 1,
+                                    spaceBetween: 1, 
+                                },
                                 640: {
                                     slidesPerView: 1,
                                     spaceBetween: 1, // Adjust this value for smaller screens

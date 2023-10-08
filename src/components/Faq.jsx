@@ -37,15 +37,14 @@ export default function Faq() {
     };
     return (
         <div>
-            <section className="bg-blue hero py-12 xl:pt-12 xl:pb-16 overflow-hidden">
+            <section className="bg-blue py-10 px-10 md:px-16 lg:px-20 xl:px-24 mt-8">
                 <div className="container mx-auto h-full">
                     <div className="flex flex-col xl:flex-row item-center justify-between h-full">
                         <div className="mr-24">
                             <div>
-                                <strong className="text-secondary text-xl">FAQ</strong><br />
+                                <p className="text-secondary text-xl font-bold">FAQ</p>
                                 <strong className="text-4xl xl:text-6xl font:bold" style={{ lineHeight: "1.5" }}>
-                                    Frequently asked<br />
-                                    question
+                                    Frequently asked question
                                 </strong>
                             </div>
                             <hr className="mt-6 mb-6"
@@ -61,7 +60,7 @@ export default function Faq() {
                                 Still do you have any questions to know?<br />
                                 Feel free to ask our experts here.<br />
                             </strong>
-                            <div className="mt-12">
+                            <div className="mt-12 box-border">
                                 <form>
                                     <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
                                     <div className="relative flex items-center">
@@ -74,7 +73,7 @@ export default function Faq() {
                             </div>
 
                         </div>
-                        <div className="mt-12 ml-24 mx-auto p-5" style={{width:"765px"}}>
+                        <div className="mt-12 h-[500px] mx-auto p-5 md:w-[765px]" >
                             {faqData.map((item, index) => (
                                 <div
                                     className={`bg-white rounded-lg p-4 mb-4 cursor-pointer relative w-full`}
@@ -102,8 +101,6 @@ export default function Faq() {
                                     </div>
                                 </div>
                             ))}
-
-
                         </div>
                     </div>
                 </div>

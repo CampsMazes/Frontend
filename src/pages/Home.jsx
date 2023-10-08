@@ -7,6 +7,7 @@ import Problem from "../components/Problem"
 import Feedback from "../components/Feedback"
 import Counsellor from "../components/Counsellor"
 import Faq from "../components/Faq"
+import Blogs from "../components/Blogs"
 const Home = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const Home = () => {
       <Problem />
       <Feedback />
       <Counsellor />
+      <Blogs />
       <Faq />
     </>
   )
