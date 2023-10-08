@@ -81,7 +81,7 @@ export default function Blogs() {
                                             </div>
                                             <div className='bg-white p-4 mt-0.25 rounded-b-lg' >
                                                 <p className='text-black'>12 Noon To 4 Pm</p>
-                                                <h2 className= 'font-bold'>{card.title}</h2>
+                                                <h2 className= 'font-bold text-black'>{card.title}</h2>
                                               
                                                 <a href="#">Read more</a>
                                             </div>

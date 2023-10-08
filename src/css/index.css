@@ -276,6 +276,10 @@ h6 {
   background: #265DF2;
 }
 
+.swiper{
+  width : 100% !important;
+}
+
 .swiper-navBtn {
   color: #6E93f7;
   transition: color 0.3s ease;

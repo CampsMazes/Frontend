@@ -38,7 +38,7 @@ const counsellorCards = [
 export default function Counsellor() {
     return (
         <div>
-            <section className="py-1 xl:pt-12 xl:pb-16 overflow-hidden swiper-navBtn">
+            <section className="py-1 xl:pt-12 xl:pb-16 swiper-navBtn">
                 <div className="container mx-auto h-full flex flex-col xl:flex-row items-center justify-center text-center">
                     <p className="relative mb-4">
                         <strong className="text-4xl text-ultra">Expert Counsellor</strong><br />
@@ -72,7 +72,6 @@ export default function Counsellor() {
 
                             navigation={true}
                             pagination={{
-                            
                                 dynamicBullets: true,
                             }}
                            
@@ -96,7 +95,7 @@ export default function Counsellor() {
                                                 </p>
                                                 <hr className='mt-2' />
                                                 <div className="mt-4 flex items-center">
-                                                    <p className="ml-4 font-semibold text-primary">Book Now</p>
+                                                    <p className=" font-semibold text-primary">Book Now</p>
                                                     <p className='text-secondary ml-36'>View Profile</p>
                                                 </div>
                                             </div>
