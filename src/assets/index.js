@@ -86,3 +86,15 @@ export {
 
 import popularCoursesImg from './images/Courses/popular-courses.svg'; 
 export {popularCoursesImg}
+
+// Problems 
+
+import visaProcess from './images/Problems/visa-process.svg'; 
+import accommodation from './images/Problems/accommodation.svg'; 
+
+export {visaProcess, accommodation}; 
+
+// Footer
+
+import campsMazeLogoFooter from './images/Footer/camps-maze-logo.svg'; 
+export {campsMazeLogoFooter}; 

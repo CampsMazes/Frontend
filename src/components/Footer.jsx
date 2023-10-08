@@ -1,5 +1,6 @@
 // import React from 'react'
 import { Group19237 } from "../assets"
+import { campsMazeLogoFooter } from "../assets"
 const Footer = () => {
   return (
     <>
@@ -8,7 +9,7 @@ const Footer = () => {
           <div className="flex flex-col xl:flex-row item-center justify-between h-full">
             <div>
               <div>
-                <img src={Group19237} alt="/" className="mt-12" />
+                <img src={campsMazeLogoFooter} alt="/" className="mt-12" />
               </div>
 
               <div className="mt-6 text-xl text-ld">

@@ -1,78 +1,30 @@
-import React from 'react';
-import { hands, talking } from '../assets'
+import { visaProcess } from '../assets'
+
 export default function Problem() {
     return (
-        <section className="hero py-12 xl:pt-12 xl:pb-0 overflow-hidden">
-            <div className="container mx-auto h-full">
-                <div className="flex flex-col xl:flex-row items-center justify-between h-full">
-                    <div className="imag hero__img hidden xl:flex max-w-[814px] self-end">
-                        <div>
-                            <img src={hands} alt="hands" className='rounded-lg'/>
-                        </div>
-                    </div>
-                    <div className="text-center xl:text-left xl:ml-8"> {/* Adjust text alignment and ml values */}
-                        <div>
-                            <strong className='text-secondary mb-10'>Advantage Features</strong>
-                            <h1 className="text-4xl hed xl:text-5xl font:bold mt-5">
-                                <strong>Struggling with the</strong><br />
-                                <strong>Visa Process?</strong>
-                            </h1>
-                            <p className="text-dark dec mt-5">
-                                The head office of Eduplan is located in India<br />
-                                which helps all Indian students to get admission<br />
-                                into top-ranked universities from the United<br />
-                                Kingdom, USA, Australia, Canada, Germany<br />
-                                and Sweden
-                            </p>
-                        </div>
+        <section className="py-8 px-10 md:px-16 lg:px-20 xl:px-28">
+            <div className='grid grid-cols-2'>
+                <div className='flex justify-start '>
+                    <img className='h-full md:object-cover' src={visaProcess} alt="" />
+                </div>
 
-                        <div className="mt-12">
-                            <div className="relative flex items-center">
-                                <div className="relative w-full items-center flex flex-row">
-                                    <button
-                                        className="text-white btn-text bg-primary hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-primary font-medium rounded-lg text-sm px-12 py-2 ml-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                                        style={{ width: "210px", height: "60px" }}>
-                                        Know More
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div className='sm:px-2 lg:px-8 xl:px-20'>
+                    <p className='text-[#2EAAFA] font-semibold'>Advantage Features</p>
+                    <p className='text-3xl lg:text-4xl font-medium mb-3'>Struggling with the Visa Process?</p>
+                    <p>The head office of Eduplan is located in India which helps all Indian students to get admission into top-ranked universities from the United Kingdom, USA, Australia, Canada,Germany and Sweden. </p>
+                    <button className='btn-primary px-3 py-2 rounded-md mt-8'>Know More</button>
                 </div>
             </div>
-            <div className=" mt-36 container mx-auto h-full">
-                <div className="flex flex-col xl:flex-row items-center justify-between h-full">
-                    <div className="text-center xl:text-left "> {/* Adjust text alignment and ml values */}
-                        <div>
-                            <strong className='text-secondary mb-10'>Advantage Features</strong>
-                            <h1 className="text-4xl hed xl:text-5xl font:bold mt-5">
-                                <strong>Struggling with the</strong><br />
-                                <strong>Accomodation?</strong>
-                            </h1>
-                            <p className="text-dark dec mt-5">
-                                The head office of Eduplan is located in India<br />
-                                which helps all Indian students to get admission<br />
-                                into top-ranked universities from the United<br />
-                                Kingdom, USA, Australia, Canada, Germany<br />
-                                and Sweden
-                            </p>
-                        </div>
 
-                        <div className="mt-12">
-                            <div className="relative flex items-center">
-                                <div className="relative w-full items-center flex flex-row">
-                                <button className="btn-outline-2 border border-primary hover:bg-white " style={{ width: "210px", height: "60px" }}>Know More</button>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="imag hero__img hidden xl:flex max-w-[814px] self-end">
-                        <div>
-                            <img src={talking} alt="talking" className="rounded-lg" />
-                        </div>
-                    </div>
-
+            <div className='grid grid-cols-2 mt-6'>
+                <div className='md:px-4 lg:px-8 xl:px-20 lg:mt-8'>
+                    <p className='text-[#2EAAFA] font-semibold'>Advantage Features</p>
+                    <p className='text-3xl lg:text-4xl font-medium mb-3'>Struggling with the Visa Process?</p>
+                    <p>The head office of Eduplan is located in India which helps all Indian students to get admission into top-ranked universities from the United Kingdom, USA, Australia, Canada,Germany and Sweden. </p>
+                    <button className='btn-primary px-3 py-2 rounded-md mt-4'>Know More</button>
+                </div>
+                <div className=''>
+                    <img className='h-full md:object-cover' src={visaProcess} alt="" />
                 </div>
             </div>
         </section>
