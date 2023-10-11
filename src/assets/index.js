@@ -15,6 +15,8 @@ import talking from "./image/talking.png";
 import test from "./image/testi-03.png.png"
 import image18 from "./image/image18.png"
 import Group19237 from "./image/Group19237.png"
+import Rectangle628 from "./image/Rectangle628.png"
+import Vit from "./image/vit.png"
 export {
     amityUni,
     colorLogo,
@@ -33,4 +35,6 @@ export {
     test,
     image18,
     Group19237,
+    Rectangle628,
+    Vit,
 }; 
