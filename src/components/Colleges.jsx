@@ -326,7 +326,7 @@ export default function College() {
                                     <div>
                                         <Menu.Button className="group inline-flex justify-center font-medium text-customary hover:text-gray-900">
                                             Sort-by:
-                                            <button className="ml-2 mb-4 btn-4">
+                                            <button className="ml-2 btn-4">
                                                 {selectedSortOption}
                                                 <ChevronDownIcon
                                                     className="-mr-1 ml-1 h-5 w-5 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
