@@ -6,8 +6,8 @@ export default {
   ],
   theme: {
     screens:{
-      xs: '480px',
-      sm: '576px',
+    
+      sm: '640px',
       md: '768px',
       lg: '1024px',
       xl: '1200px',
@@ -33,6 +33,7 @@ export default {
         "fdd":"#98A2B3",
         'lightdark':'#D9D9D9',
         'ultra':'#1E1926',
+        'customary':'#4F536C',
       },
       fontFamily:{
         primary:'Poppins'
@@ -49,5 +50,7 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
