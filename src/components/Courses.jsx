@@ -8,7 +8,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { rectangle584 } from './../assets'
-import { Autoplay, Navigation, Pagination } from 'swiper/modules';
+import { Autoplay,Pagination} from 'swiper/modules';
 
 const cards = [
     {
@@ -75,7 +75,7 @@ const Courses = () => {
                 <Swiper
                     slidesPerView='auto'
                     loop={true}
-                    spaceBetween={3}
+                    spaceBetween={1}
 
                     autoplay={{
                         delay: 2500,
@@ -92,26 +92,26 @@ const Courses = () => {
                         },
                         1240: {
                             slidesPerView: 3,
-                            spaceBetween: 10, // Adjust this value for larger screens
+                            spaceBetween: 1, // Adjust this value for larger screens
                         },
                     }}
-                    navigation={true}
+                
                     pagination={{
 
                         dynamicBullets: true,
                     }}
 
-                    modules={[Autoplay, Navigation, Pagination]}
+                    modules={[Autoplay,Pagination]}
                 >
 
                     {cards.map((card, index) => {
                         return (
                             <SwiperSlide key={index}>
-                                <div className="flex items-center justify-center flex-col p-2 md:p-4 mb-12 ">
+                                <div className="flex items-center justify-center flex-col p-8 mb-12 ">
                                     <div>
                                         <img src={card.img} className='rounded-lg' alt="i1" />
                                     </div>
-                                    <div className='bg-white p-3 mt-0.25 rounded-lg'>
+                                    <div className='bg-white p-4 mt-0.25 rounded-lg'>
                                         <p className="flex items-center description">🟢 {card.technology}</p>
                                         <h2 className='description name font-bold'>{card.description}</h2>
                                         <div className="mt-4 flex items-center">

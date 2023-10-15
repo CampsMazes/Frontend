@@ -5,7 +5,7 @@ const articles = [
         "title": "Career counselling",
         "description": "Get a full view so you know where to save. Track spending, data keep tab subscription lorem ipsum text",
         "image": counselling,
-        "redirectTo": "#"
+        "redirectTo": "#",
     },
     {
         "title": "College Shortlisting",
@@ -51,7 +51,7 @@ const Features = () => {
                 </div>
             </div>
 
-            <div className="my-12 grid grid-cols-1 gap-10 place-items-center md:grid-cols-2 md:gap-14 lg:grid-cols-2 lg:gap-16 xl:grid-cols-3">
+            <div className="my-12 xl:p-8 grid grid-cols-1 gap-10 place-items-center md:grid-cols-2 md:gap-14 lg:grid-cols-2 lg:gap-4 xl:gap-6 xl:grid-cols-3">
 
                 {/* <!-- Article --> */}
                 {articles.map((item, index) => {
@@ -59,7 +59,7 @@ const Features = () => {
 
                         <article key={index} className="overflow-hidden rounded-lg shadow-lg w-wi h-hi">
 
-                            <div className="ml-4">
+                            <div className="ml-4 mt-4">
                                 <img src={item.image} alt="" />
                             </div>
                             <header className="flex items-center justify-between leading-tight p-2 md:p-4">
