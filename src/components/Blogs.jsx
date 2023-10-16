@@ -23,13 +23,15 @@ const counsellorCards = [
     {
         "title" : "Overseas Education Fair Amravati 2023",
     }, 
-   
+    {
+        "title" : "Overseas Education Fair Amravati 2023",
+    }, 
 ]
 
 export default function Blogs() {
     return (
         <div>
-            <section className="py-1 xl:pt-12 xl:pb-16 overflow-hidden swiper-navBtn">
+            <section className="py-1 xl:pt-12 xl:pb-16 overflow-hidden">
                 <div className="container mx-auto h-full flex flex-col xl:flex-row items-center justify-center text-center">
                     <p className="relative mb-4">
                         <strong className="text-4xl text-ultra">Campsmaze latest blogs</strong><br />
