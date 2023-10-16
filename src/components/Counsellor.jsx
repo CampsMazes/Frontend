@@ -88,7 +88,7 @@ export default function Counsellor() {
                                 return (
                                     <SwiperSlide key={index}>
 
-                                        <div className="flex gap-4 ml-6 mr-6 items-center justify-center flex-col p-4 md:p-4 mb-12">
+                                        <div className="flex gap-4 ml-6 mr-6 sm:ml-10 sm:mr-10 items-center justify-center flex-col md:p-4 mb-12">
                                             <div className=' bg-purple-800 rounded-lg'>
                                                 <div className='w-full rounded-t-md'>
                                                     <img src={image18} className='w-full rounded-t-md' alt="i1" />
@@ -101,8 +101,8 @@ export default function Counsellor() {
                                                     </p>
                                                     <hr className='mt-2' />
                                                     <div className="mt-4 flex items-center">
-                                                        <p className=" font-semibold text-primary">Book Now</p>
-                                                        <p className='text-secondary ml-36'>View Profile</p>
+                                                        <span className="font-semibold text-primary">Book Now</span>
+                                                        <span className='text-secondary ml-24'>View Profile</span>
                                                     </div>
                                                 </div>
                                             </div>
