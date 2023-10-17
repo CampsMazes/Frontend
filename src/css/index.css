@@ -71,8 +71,40 @@ h6 {
   border-radius: 100px;
 }
 
+
+@media (max-width: 767px) {
+  .custom-width {
+    width: 100%; /* Make the card full width on mobile */
+  }
+
+  .custom-height {
+    height: auto; /* Allow the height to adjust based on content */
+  }
+
+  /* You can adjust other responsive styles here */
+}
+/* styles.css (or your project's CSS file) */
+.custom-width {
+  width: 865px; /* Set the desired width */
+}
+
+.custom-height {
+  height: 360px; /* Set the desired height */
+}
+
+/* Optionally, you can prevent the card from shrinking with flex-shrink: 0 */
+.custom-width, .custom-height {
+  flex-shrink: 0;
+}
+
+
+
 .btn {
   @apply px-4 py-1.5  rounded-md font-semibold bg-primary text-white tracking-[1.02px] flex items-center justify-center transition-all;
+}
+
+.btn-4 {
+  @apply px-4 py-0.5  rounded-md font-semibold bg-gray-200 text-customary tracking-[1.02px] flex items-center justify-center transition-all;
 }
 
 .btn-outline {
@@ -125,6 +157,8 @@ h6 {
 .section {
   @apply py-12 xl:py-[150px];
 }
+
+
 
 .slide-container-2 {
   max-width: 100%;
