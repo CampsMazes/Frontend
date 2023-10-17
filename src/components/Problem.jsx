@@ -5,7 +5,7 @@ export default function Problem() {
         <section className="py-8 px-10 md:px-16 lg:px-20 xl:px-28">
             <div className='grid grid-cols-2'>
                 <div className='flex justify-start '>
-                    <img className='h-full md:object-cover' src={visaProcess} alt="" />
+                    <img className='h-full md:object-cover mt-4 xl:ml-4' src={visaProcess} alt="" />
                 </div>
 
                 <div className='sm:px-2 lg:px-8 xl:px-20 flex flex-col justify-center'>
