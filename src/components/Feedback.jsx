@@ -61,13 +61,13 @@ export default function Feedback() {
                                     <div className="card">
                                         <div className="card-content">
                                             <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
-                                            <p className="ml-12 name-2">“ I able to prove potential<br />
+                                            <p className="ml-12 mt-4 name-2">“ I able to prove potential<br />
                                                 employers that i have a solid<br />
                                                 understanding of computers &<br />
                                                 hardware- and started to receive<br />
                                                 real, viable job offers ”</p>
 
-                                            <div className="mt-4 flex items-center">
+                                            <div className="mt-12 flex items-center">
                                                 <img className='ml-10' src={test} alt="" />
 
                                                 <p className="description ml-2"><strong>Savannah</strong><br />Central African</p>
@@ -89,13 +89,13 @@ export default function Feedback() {
                                     <div className="card">
                                         <div className="card-content">
                                             <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
-                                            <p className="ml-12 name-2">“ I able to prove potential<br />
+                                            <p className="ml-12 mt-4 name-2">“ I able to prove potential<br />
                                                 employers that i have a solid<br />
                                                 understanding of computers &<br />
                                                 hardware- and started to receive<br />
                                                 real, viable job offers ”</p>
 
-                                            <div className="mt-4 flex items-center">
+                                            <div className="mt-12 flex items-center">
                                                 <img className='ml-10' src={test} alt="" />
 
                                                 <p className="description ml-2"><strong>Savannah</strong><br />Central African</p>
@@ -116,13 +116,13 @@ export default function Feedback() {
                                     <div className="card">
                                         <div className="card-content">
                                             <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
-                                            <p className="ml-12 name-2">“ I able to prove potential<br />
+                                            <p className="ml-12 mt-4 name-2">“ I able to prove potential<br />
                                                 employers that i have a solid<br />
                                                 understanding of computers &<br />
                                                 hardware- and started to receive<br />
                                                 real, viable job offers ”</p>
 
-                                            <div className="mt-4 flex items-center">
+                                            <div className="mt-12 flex items-center">
                                                 <img className='ml-10' src={test} alt="" />
 
                                                 <p className="description ml-2"><strong>Savannah</strong><br />Central African</p>
@@ -143,13 +143,13 @@ export default function Feedback() {
                                     <div className="card">
                                         <div className="card-content">
                                             <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
-                                            <p className="ml-12 name-2">“ I able to prove potential<br />
+                                            <p className="ml-12 mt-4 name-2">“ I able to prove potential<br />
                                                 employers that i have a solid<br />
                                                 understanding of computers &<br />
                                                 hardware- and started to receive<br />
                                                 real, viable job offers ”</p>
 
-                                            <div className="mt-4 flex items-center">
+                                            <div className="mt-12 flex items-center">
                                                 <img className='ml-10' src={test} alt="" />
 
                                                 <p className="description ml-2"><strong>Savannah</strong><br />Central African</p>
@@ -170,13 +170,13 @@ export default function Feedback() {
                                     <div className="card">
                                         <div className="card-content">
                                             <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
-                                            <p className="ml-12 name-2">“ I able to prove potential<br />
+                                            <p className="ml-12 mt-4 name-2">“ I able to prove potential<br />
                                                 employers that i have a solid<br />
                                                 understanding of computers &<br />
                                                 hardware- and started to receive<br />
                                                 real, viable job offers ”</p>
 
-                                            <div className="mt-4 flex items-center">
+                                            <div className="mt-12 flex items-center">
                                                 <img className='ml-10' src={test} alt="" />
 
                                                 <p className="description ml-2"><strong>Savannah</strong><br />Central African</p>
@@ -197,13 +197,13 @@ export default function Feedback() {
                                     <div className="card">
                                         <div className="card-content">
                                             <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
-                                            <p className="ml-12 name-2">“ I able to prove potential<br />
+                                            <p className="ml-12 mt-4 name-2">“ I able to prove potential<br />
                                                 employers that i have a solid<br />
                                                 understanding of computers &<br />
                                                 hardware- and started to receive<br />
                                                 real, viable job offers ”</p>
 
-                                            <div className="mt-4 flex items-center">
+                                            <div className="mt-12 flex items-center">
                                                 <img className='ml-10' src={test} alt="" />
 
                                                 <p className="description ml-2"><strong>Savannah</strong><br />Central African</p>
@@ -224,13 +224,13 @@ export default function Feedback() {
                                     <div className="card">
                                         <div className="card-content">
                                             <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
-                                            <p className="ml-12 name-2">“ I able to prove potential<br />
+                                            <p className="ml-12 mt-4 name-2">“ I able to prove potential<br />
                                                 employers that i have a solid<br />
                                                 understanding of computers &<br />
                                                 hardware- and started to receive<br />
                                                 real, viable job offers ”</p>
 
-                                            <div className="mt-4 flex items-center">
+                                            <div className="mt-12 flex items-center">
                                                 <img className='ml-10' src={test} alt="" />
 
                                                 <p className="description ml-2"><strong>Savannah</strong><br />Central African</p>
@@ -251,13 +251,13 @@ export default function Feedback() {
                                     <div className="card">
                                         <div className="card-content">
                                             <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
-                                            <p className="ml-12 name-2">“ I able to prove potential<br />
+                                            <p className="ml-12 mt-4 name-2">“ I able to prove potential<br />
                                                 employers that i have a solid<br />
                                                 understanding of computers &<br />
                                                 hardware- and started to receive<br />
                                                 real, viable job offers ”</p>
 
-                                            <div className="mt-4 flex items-center">
+                                            <div className="mt-12 flex items-center">
                                                 <img className='ml-10' src={test} alt="" />
 
                                                 <p className="description ml-2"><strong>Savannah</strong><br />Central African</p>
@@ -278,13 +278,13 @@ export default function Feedback() {
                                     <div className="card">
                                         <div className="card-content">
                                             <span className='ml-14 mt-3' style={{ fontSize: '16px', color: '#FFC44E' }}>⭐⭐⭐⭐⭐</span>
-                                            <p className="ml-12 name-2">“ I able to prove potential<br />
+                                            <p className="ml-12 mt-4 name-2">“ I able to prove potential<br />
                                                 employers that i have a solid<br />
                                                 understanding of computers &<br />
                                                 hardware- and started to receive<br />
                                                 real, viable job offers ”</p>
 
-                                            <div className="mt-4 flex items-center">
+                                            <div className="mt-12 flex items-center">
                                                 <img className='ml-10' src={test} alt="" />
 
                                                 <p className="description ml-2"><strong>Savannah</strong><br />Central African</p>

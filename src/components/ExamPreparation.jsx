@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { image4 } from './../assets'
+import { Gre } from './../assets'
 
 
 // import required modules
@@ -48,15 +48,15 @@ export default function ExamPreparation() {
                     modules={[Autoplay, Navigation]}
                 >
                     <SwiperSlide>
-                        <div className="flex items-center justify-center flex-col p-2 md:p-4">
-                            <img src={image4} alt="i1" />
+                        <div className="flex  items-center justify-center flex-col p-2 md:p-4">
+                            <img src={Gre} className='h-32'  alt="i1" />
                             <h1 className="text-lg">
                                 <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
                             <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-                                <p className="ml-2 text-sm text-dark">
+                                <p className="ml-2 text-sm text-dark text-center">
                                     Get a full view so you know where to<br />
                                     save. Track spending, deta keep tab<br />
                                     subscription lorem ipsum text
@@ -66,14 +66,14 @@ export default function ExamPreparation() {
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
-                            <img src={image4} alt="i1" />
+                            <img src={Gre} className='h-32'  alt="i1" />
                             <h1 className="text-lg">
                                 <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
                             <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-                                <p className="ml-2 text-sm text-dark">
+                               <p className="ml-2 text-sm text-dark text-center">
                                     Get a full view so you know where to<br />
                                     save. Track spending, deta keep tab<br />
                                     subscription lorem ipsum text
@@ -83,14 +83,14 @@ export default function ExamPreparation() {
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
-                            <img src={image4} alt="i1" />
+                            <img src={Gre} className='h-32'  alt="i1" />
                             <h1 className="text-lg">
                                 <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
                             <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-                                <p className="ml-2 text-sm text-dark">
+                               <p className="ml-2 text-sm text-dark text-center">
                                     Get a full view so you know where to<br />
                                     save. Track spending, deta keep tab<br />
                                     subscription lorem ipsum text
@@ -100,14 +100,14 @@ export default function ExamPreparation() {
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
-                            <img src={image4} alt="i1" />
+                            <img src={Gre} className='h-32'  alt="i1" />
                             <h1 className="text-lg">
                                 <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
                             <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-                                <p className="ml-2 text-sm text-dark">
+                               <p className="ml-2 text-sm text-dark text-center">
                                     Get a full view so you know where to<br />
                                     save. Track spending, deta keep tab<br />
                                     subscription lorem ipsum text
@@ -117,14 +117,14 @@ export default function ExamPreparation() {
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
-                            <img src={image4} alt="i1" />
+                            <img src={Gre} className='h-32'  alt="i1" />
                             <h1 className="text-lg">
                                 <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
                             <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-                                <p className="ml-2 text-sm text-dark">
+                               <p className="ml-2 text-sm text-dark text-center">
                                     Get a full view so you know where to<br />
                                     save. Track spending, deta keep tab<br />
                                     subscription lorem ipsum text
@@ -134,14 +134,14 @@ export default function ExamPreparation() {
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
-                            <img src={image4} alt="i1" />
+                            <img src={Gre} className='h-32'  alt="i1" />
                             <h1 className="text-lg">
                                 <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
                             <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-                                <p className="ml-2 text-sm text-dark">
+                               <p className="ml-2 text-sm text-dark text-center">
                                     Get a full view so you know where to<br />
                                     save. Track spending, deta keep tab<br />
                                     subscription lorem ipsum text
@@ -151,14 +151,14 @@ export default function ExamPreparation() {
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
-                            <img src={image4} alt="i1" />
+                            <img src={Gre} className='h-32'  alt="i1" />
                             <h1 className="text-lg">
                                 <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
                             <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-                                <p className="ml-2 text-sm text-dark">
+                               <p className="ml-2 text-sm text-dark text-center">
                                     Get a full view so you know where to<br />
                                     save. Track spending, deta keep tab<br />
                                     subscription lorem ipsum text
@@ -168,14 +168,14 @@ export default function ExamPreparation() {
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
-                            <img src={image4} alt="i1" />
+                            <img src={Gre} className='h-32'  alt="i1" />
                             <h1 className="text-lg">
                                 <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
                             <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-                                <p className="ml-2 text-sm text-dark">
+                               <p className="ml-2 text-sm text-dark text-center">
                                     Get a full view so you know where to<br />
                                     save. Track spending, deta keep tab<br />
                                     subscription lorem ipsum text
@@ -185,14 +185,14 @@ export default function ExamPreparation() {
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
-                            <img src={image4} alt="i1" />
+                            <img src={Gre} className='h-32'  alt="i1" />
                             <h1 className="text-lg">
                                 <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
                             <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-                                <p className="ml-2 text-sm text-dark">
+                               <p className="ml-2 text-sm text-dark text-center">
                                     Get a full view so you know where to<br />
                                     save. Track spending, deta keep tab<br />
                                     subscription lorem ipsum text
@@ -202,14 +202,14 @@ export default function ExamPreparation() {
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
-                            <img src={image4} alt="i1" />
+                            <img src={Gre} className='h-32'  alt="i1" />
                             <h1 className="text-lg">
                                 <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
                             <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-                                <p className="ml-2 text-sm text-dark">
+                               <p className="ml-2 text-sm text-dark text-center">
                                     Get a full view so you know where to<br />
                                     save. Track spending, deta keep tab<br />
                                     subscription lorem ipsum text
@@ -219,14 +219,14 @@ export default function ExamPreparation() {
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
-                            <img src={image4} alt="i1" />
+                            <img src={Gre} className='h-32'  alt="i1" />
                             <h1 className="text-lg">
                                 <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
                             <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-                                <p className="ml-2 text-sm text-dark">
+                               <p className="ml-2 text-sm text-dark text-center">
                                     Get a full view so you know where to<br />
                                     save. Track spending, deta keep tab<br />
                                     subscription lorem ipsum text
@@ -236,14 +236,14 @@ export default function ExamPreparation() {
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
-                            <img src={image4} alt="i1" />
+                            <img src={Gre} className='h-32'  alt="i1" />
                             <h1 className="text-lg">
                                 <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
                             <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-                                <p className="ml-2 text-sm text-dark">
+                               <p className="ml-2 text-sm text-dark text-center">
                                     Get a full view so you know where to<br />
                                     save. Track spending, deta keep tab<br />
                                     subscription lorem ipsum text
@@ -253,14 +253,14 @@ export default function ExamPreparation() {
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
-                            <img src={image4} alt="i1" />
+                            <img src={Gre} className='h-32'  alt="i1" />
                             <h1 className="text-lg">
                                 <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
                             <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-                                <p className="ml-2 text-sm text-dark">
+                               <p className="ml-2 text-sm text-dark text-center">
                                     Get a full view so you know where to<br />
                                     save. Track spending, deta keep tab<br />
                                     subscription lorem ipsum text
@@ -270,14 +270,14 @@ export default function ExamPreparation() {
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
-                            <img src={image4} alt="i1" />
+                            <img src={Gre} className='h-32'  alt="i1" />
                             <h1 className="text-lg">
                                 <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
                             <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-                                <p className="ml-2 text-sm text-dark">
+                               <p className="ml-2 text-sm text-dark text-center">
                                     Get a full view so you know where to<br />
                                     save. Track spending, deta keep tab<br />
                                     subscription lorem ipsum text
@@ -287,14 +287,14 @@ export default function ExamPreparation() {
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
-                            <img src={image4} alt="i1" />
+                            <img src={Gre} className='h-32'  alt="i1" />
                             <h1 className="text-lg">
                                 <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
                             <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-                                <p className="ml-2 text-sm text-dark">
+                               <p className="ml-2 text-sm text-dark text-center">
                                     Get a full view so you know where to<br />
                                     save. Track spending, deta keep tab<br />
                                     subscription lorem ipsum text

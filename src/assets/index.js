@@ -15,6 +15,7 @@ import talking from "./images/talking.png";
 import test from "./images/testi-03.png.png"
 import image18 from "./images/image18.png"
 import Group19237 from "./images/Group19237.png"
+import Gre from "./images/gre.png"
 
 // NAVBAR IMPORTS and exports...
 import Logo from "./images/Navbar/Logo.svg"; 
@@ -48,6 +49,7 @@ export {
     test,
     image18,
     Group19237,
+    Gre
 }; 
 
 
