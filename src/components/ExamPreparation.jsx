@@ -50,8 +50,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                         <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -67,8 +67,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -84,8 +84,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -101,8 +101,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -118,8 +118,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -135,8 +135,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -152,8 +152,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -169,8 +169,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -186,8 +186,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -203,8 +203,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -220,8 +220,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -237,8 +237,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -254,8 +254,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -271,8 +271,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -288,8 +288,8 @@ export default function ExamPreparation() {
                     <SwiperSlide>
                     <div className="flex items-center justify-center flex-col p-2 md:p-4">
                             <img src={image4} alt="i1" />
-                            <h1 class="text-lg">
-                                <a class="no-underline hover:underline text-black" href="#">
+                            <h1 className="text-lg">
+                                <a className="no-underline hover:underline text-black" href="#">
                                     <strong>GRE Test</strong>
                                 </a>
                             </h1>
@@ -306,291 +306,4 @@ export default function ExamPreparation() {
             </div>
         </section>
     );
-};
-
-// <div className="mt-12 mb-12 grid grid-cols-5 gap-10 lg:flex lg:flex-row lg:gap-x-10 lg:gap-y-0">
-//     <Swiper
-//         slidesPerView={5}
-//         spaceBetween={20} // Adjust this value as needed for spacing between cards
-//         centeredSlides={true} // Center the active slide
-//         centeredSlidesBounds={true} // Center the slide without padding
-//         loop={true}
-//         autoplay={{
-//             delay: 2500,
-//             disableOnInteraction: false,
-//         }}
-//         breakpoints={{
-//             640: {
-//                 slidesPerView: 1,
-//                 spaceBetween: 10, // Adjust this value for smaller screens
-//             },
-//             768: {
-//                 slidesPerView: 3,
-//                 spaceBetween: 20, // Adjust this value for medium screens
-//             },
-//             1024: {
-//                 slidesPerView: 5,
-//                 spaceBetween: 30, // Adjust this value for larger screens
-//             },
-//         }}
-//         navigation={true}
-//         modules={[Autoplay, Navigation]}
-//         className="mySwiper mx-auto" // Add mx-auto class to center
-//     >
-//         <SwiperSlide>
-//             <div className="flex items-center justify-center flex-col p-2 md:p-4">
-//                 <img src={image4} alt="i1" />
-//                 <h1 class="text-lg">
-//                     <a class="no-underline hover:underline text-black" href="#">
-//                         <strong>GRE Test</strong>
-//                     </a>
-//                 </h1>
-//                 <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-//                     <p className="ml-2 text-sm text-dark">
-//                         Get a full view so you know where to<br />
-//                         save. Track spending, deta keep tab<br />
-//                         subscription lorem ipsum text
-//                     </p>
-//                 </a>
-//             </div>
-//         </SwiperSlide>
-//         <SwiperSlide>
-//             <div className="flex items-center justify-center flex-col p-2 md:p-4">
-//                 <img src={image4} alt="i1" />
-//                 <h1 class="text-lg">
-//                     <a class="no-underline hover:underline text-black" href="#">
-//                         <strong>GRE Test</strong>
-//                     </a>
-//                 </h1>
-//                 <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-//                     <p className="ml-2 text-sm text-dark">
-//                         Get a full view so you know where to<br />
-//                         save. Track spending, deta keep tab<br />
-//                         subscription lorem ipsum text
-//                     </p>
-//                 </a>
-//             </div>
-//         </SwiperSlide>
-//         <SwiperSlide>
-//             <div className="flex items-center justify-center flex-col p-2 md:p-4">
-//                 <img src={image4} alt="i1" />
-//                 <h1 class="text-lg">
-//                     <a class="no-underline hover:underline text-black" href="#">
-//                         <strong>GRE Test</strong>
-//                     </a>
-//                 </h1>
-//                 <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-//                     <p className="ml-2 text-sm text-dark">
-//                         Get a full view so you know where to<br />
-//                         save. Track spending, deta keep tab<br />
-//                         subscription lorem ipsum text
-//                     </p>
-//                 </a>
-//             </div>
-//         </SwiperSlide>
-//         <SwiperSlide>
-//             <div className="flex items-center justify-center flex-col p-2 md:p-4">
-//                 <img src={image4} alt="i1" />
-//                 <h1 class="text-lg">
-//                     <a class="no-underline hover:underline text-black" href="#">
-//                         <strong>GRE Test</strong>
-//                     </a>
-//                 </h1>
-//                 <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-//                     <p className="ml-2 text-sm text-dark">
-//                         Get a full view so you know where to<br />
-//                         save. Track spending, deta keep tab<br />
-//                         subscription lorem ipsum text
-//                     </p>
-//                 </a>
-//             </div>
-//         </SwiperSlide>
-//         <SwiperSlide>
-//             <div className="flex items-center justify-center flex-col p-2 md:p-4">
-//                 <img src={image4} alt="i1" />
-//                 <h1 class="text-lg">
-//                     <a class="no-underline hover:underline text-black" href="#">
-//                         <strong>GRE Test</strong>
-//                     </a>
-//                 </h1>
-//                 <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-//                     <p className="ml-2 text-sm text-dark">
-//                         Get a full view so you know where to<br />
-//                         save. Track spending, deta keep tab<br />
-//                         subscription lorem ipsum text
-//                     </p>
-//                 </a>
-//             </div>
-//         </SwiperSlide>
-//         <SwiperSlide>
-//             <div className="flex items-center justify-center flex-col p-2 md:p-4">
-//                 <img src={image4} alt="i1" />
-//                 <h1 class="text-lg">
-//                     <a class="no-underline hover:underline text-black" href="#">
-//                         <strong>GRE Test</strong>
-//                     </a>
-//                 </h1>
-//                 <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-//                     <p className="ml-2 text-sm text-dark">
-//                         Get a full view so you know where to<br />
-//                         save. Track spending, deta keep tab<br />
-//                         subscription lorem ipsum text
-//                     </p>
-//                 </a>
-//             </div>
-//         </SwiperSlide>
-//         <SwiperSlide>
-//             <div className="flex items-center justify-center flex-col p-2 md:p-4">
-//                 <img src={image4} alt="i1" />
-//                 <h1 class="text-lg">
-//                     <a class="no-underline hover:underline text-black" href="#">
-//                         <strong>GRE Test</strong>
-//                     </a>
-//                 </h1>
-//                 <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-//                     <p className="ml-2 text-sm text-dark">
-//                         Get a full view so you know where to<br />
-//                         save. Track spending, deta keep tab<br />
-//                         subscription lorem ipsum text
-//                     </p>
-//                 </a>
-//             </div>
-//         </SwiperSlide>
-//         <SwiperSlide>
-//             <div className="flex items-center justify-center flex-col p-2 md:p-4">
-//                 <img src={image4} alt="i1" />
-//                 <h1 class="text-lg">
-//                     <a class="no-underline hover:underline text-black" href="#">
-//                         <strong>GRE Test</strong>
-//                     </a>
-//                 </h1>
-//                 <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-//                     <p className="ml-2 text-sm text-dark">
-//                         Get a full view so you know where to<br />
-//                         save. Track spending, deta keep tab<br />
-//                         subscription lorem ipsum text
-//                     </p>
-//                 </a>
-//             </div>
-//         </SwiperSlide>
-//         <SwiperSlide>
-//             <div className="flex items-center justify-center flex-col p-2 md:p-4">
-//                 <img src={image4} alt="i1" />
-//                 <h1 class="text-lg">
-//                     <a class="no-underline hover:underline text-black" href="#">
-//                         <strong>GRE Test</strong>
-//                     </a>
-//                 </h1>
-//                 <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-//                     <p className="ml-2 text-sm text-dark">
-//                         Get a full view so you know where to<br />
-//                         save. Track spending, deta keep tab<br />
-//                         subscription lorem ipsum text
-//                     </p>
-//                 </a>
-//             </div>
-//         </SwiperSlide>
-//         <SwiperSlide>
-//             <div className="flex items-center justify-center flex-col p-2 md:p-4">
-//                 <img src={image4} alt="i1" />
-//                 <h1 class="text-lg">
-//                     <a class="no-underline hover:underline text-black" href="#">
-//                         <strong>GRE Test</strong>
-//                     </a>
-//                 </h1>
-//                 <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-//                     <p className="ml-2 text-sm text-dark">
-//                         Get a full view so you know where to<br />
-//                         save. Track spending, deta keep tab<br />
-//                         subscription lorem ipsum text
-//                     </p>
-//                 </a>
-//             </div>
-//         </SwiperSlide>
-//         <SwiperSlide>
-//             <div className="flex items-center justify-center flex-col p-2 md:p-4">
-//                 <img src={image4} alt="i1" />
-//                 <h1 class="text-lg">
-//                     <a class="no-underline hover:underline text-black" href="#">
-//                         <strong>GRE Test</strong>
-//                     </a>
-//                 </h1>
-//                 <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-//                     <p className="ml-2 text-sm text-dark">
-//                         Get a full view so you know where to<br />
-//                         save. Track spending, deta keep tab<br />
-//                         subscription lorem ipsum text
-//                     </p>
-//                 </a>
-//             </div>
-//         </SwiperSlide>
-//         <SwiperSlide>
-//             <div className="flex items-center justify-center flex-col p-2 md:p-4">
-//                 <img src={image4} alt="i1" />
-//                 <h1 class="text-lg">
-//                     <a class="no-underline hover:underline text-black" href="#">
-//                         <strong>GRE Test</strong>
-//                     </a>
-//                 </h1>
-//                 <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-//                     <p className="ml-2 text-sm text-dark">
-//                         Get a full view so you know where to<br />
-//                         save. Track spending, deta keep tab<br />
-//                         subscription lorem ipsum text
-//                     </p>
-//                 </a>
-//             </div>
-//         </SwiperSlide>
-//         <SwiperSlide>
-//             <div className="flex items-center justify-center flex-col p-2 md:p-4">
-//                 <img src={image4} alt="i1" />
-//                 <h1 class="text-lg">
-//                     <a class="no-underline hover:underline text-black" href="#">
-//                         <strong>GRE Test</strong>
-//                     </a>
-//                 </h1>
-//                 <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-//                     <p className="ml-2 text-sm text-dark">
-//                         Get a full view so you know where to<br />
-//                         save. Track spending, deta keep tab<br />
-//                         subscription lorem ipsum text
-//                     </p>
-//                 </a>
-//             </div>
-//         </SwiperSlide>
-//         <SwiperSlide>
-//             <div className="flex items-center justify-center flex-col p-2 md:p-4">
-//                 <img src={image4} alt="i1" />
-//                 <h1 class="text-lg">
-//                     <a class="no-underline hover:underline text-black" href="#">
-//                         <strong>GRE Test</strong>
-//                     </a>
-//                 </h1>
-//                 <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-//                     <p className="ml-2 text-sm text-dark">
-//                         Get a full view so you know where to<br />
-//                         save. Track spending, deta keep tab<br />
-//                         subscription lorem ipsum text
-//                     </p>
-//                 </a>
-//             </div>
-//         </SwiperSlide>
-//         <SwiperSlide>
-//             <div className="flex items-center justify-center flex-col p-2 md:p-4">
-//                 <img src={image4} alt="i1" />
-//                 <h1 class="text-lg">
-//                     <a class="no-underline hover:underline text-black" href="#">
-//                         <strong>GRE Test</strong>
-//                     </a>
-//                 </h1>
-//                 <a className="mt-8 flex items-center no-underline hover:underline text-black" href="#">
-//                     <p className="ml-2 text-sm text-dark">
-//                         Get a full view so you know where to<br />
-//                         save. Track spending, deta keep tab<br />
-//                         subscription lorem ipsum text
-//                     </p>
-//                 </a>
-//             </div>
-//         </SwiperSlide>
-//     </Swiper>
-// </div>
+}
