@@ -1,5 +1,6 @@
 {
   "name": "camps-maze-frontend",
+  "homepage": "https://frontend-sunny-64.vercel.app/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
