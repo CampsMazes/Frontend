@@ -57,7 +57,7 @@ export default function Blogs() {
                                     slidesPerView: 2,
                                     spaceBetween: 10, // Adjust this value for medium screens
                                 },
-                                1424: {
+                                1324: {
                                     slidesPerView: 3,
                                     spaceBetween: 3, // Adjust this value for larger screens
                                 },
