@@ -7,6 +7,7 @@ import {
 import Layout from './Layout';
 import Home from './pages/Home'
 import College from '../src/components/Colleges'
+import CollegeInfo from './components/collegeData/CollegeInfo';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path:"/college",
         element: <College />,
+      },
+      {
+        path:"/collegeinfo",
+        element: <CollegeInfo />,
       },
     ],
   },
