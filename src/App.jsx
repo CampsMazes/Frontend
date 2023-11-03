@@ -8,6 +8,7 @@ import Layout from './Layout';
 import Home from './pages/Home'
 import College from '../src/components/Colleges'
 import CollegeInfo from './components/collegeData/CollegeInfo';
+import CounsellorInfo from './components/Counsellor/CounsellorInfo';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path:"/collegeinfo",
         element: <CollegeInfo />,
+      },
+      {
+        path:"/counsellorinfo",
+        element: <CounsellorInfo />,
       },
     ],
   },
