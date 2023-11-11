@@ -9,6 +9,7 @@ import Home from './pages/Home'
 import College from '../src/components/Colleges'
 import CollegeInfo from './components/collegeData/CollegeInfo';
 import CounsellorInfo from './components/Counsellor/CounsellorInfo';
+import CounsellorDetail from './components/CounsellorData/CounsellorDetail';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path:"/counsellorinfo",
         element: <CounsellorInfo />,
+      },
+      {
+        path:"/counsellordetail",
+        element: <CounsellorDetail />,
       },
     ],
   },
