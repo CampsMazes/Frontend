@@ -33,6 +33,8 @@ export default {
         'lightdark':'#D9D9D9',
         'ultra':'#1E1926',
         'customary':'#4F536C',
+        'dark2':'#9F9F9F',
+        'dark3':'#4F536C',
       },
       fontFamily:{
         primary:'Poppins'

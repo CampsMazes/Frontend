@@ -6,12 +6,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { rectangle584 } from './../assets'
+import { rectangle584 } from './../../assets'
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
-import { test } from './../assets'
+import { test } from './../../assets'
 export default function Feedback() {
     return (
-        <div>
+        <>
             <section className="bg-light mt-12 py-1 pt-12 pb-16 overflow-hidden">
                 <div className="container mx-auto h-full flex flex-col xl:flex-row items-center justify-center text-center">
                     <p className="relative mb-4">
@@ -33,9 +33,9 @@ export default function Feedback() {
                                 disableOnInteraction: false,
                             }}
                             breakpoints={{
-                                0:{
+                                0: {
                                     slidesPerView: 1,
-                                    spaceBetween: 1, 
+                                    spaceBetween: 1,
                                 },
                                 640: {
                                     slidesPerView: 1,
@@ -50,8 +50,8 @@ export default function Feedback() {
                                     spaceBetween: 3, // Adjust this value for larger screens
                                 },
                             }}
-                            navigation={true}
-                            modules={[Autoplay,Navigation]}
+
+                            modules={[Autoplay]}
                             className="mySwiper"
                         >
                             {/* Your slide content here */}
@@ -303,17 +303,6 @@ export default function Feedback() {
                     </div>
                 </div>
             </section>
-            <section className="bg-primary xl:pb-16 text-white py-16 xl:pt-12 xl:pb-0 overflow-hidden">
-                <div className="container mt-6 mx-auto h-full px-12 flex flex-col xl:flex-row items-center justify-start">
-                    <div className="mb-2">
-                        <h2 className="text-white font-semibold text-3xl">Join more than <span className='text-secondary'>1 million</span><br />
-                        <span className='text-secondary'>learners</span> worldwide</h2>
-                    </div>
-                    <div className="ml-auto">
-                        <button className="btn-outline border mr-32 border-secondary text-white hover:bg-white hover:text-primary" style={{ width: "210px", height: "60px" }}>Join Our Community</button>
-                    </div>
-                </div>
-            </section>
-        </div>
+        </>
     )
 }

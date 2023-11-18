@@ -4,42 +4,13 @@ import { XMarkIcon } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, FunnelIcon, MinusIcon, PlusIcon, Squares2X2Icon } from '@heroicons/react/20/solid'
 import { Rectangle628, Vit } from '../assets';
 
-
 import Card from "./CollegeCard"
 
+import collegeinfo from "./collegedata"
 
 
-const subCategories = []
 
 
-const collegeinfo = [
-    {
-        id: 'vit',
-        name: 'Vellore Institute of Technology',
-        description:
-            'VIT University, Vellore is a private university located in Vellore, Tamil Nadu, India. Founded in 1984, as Vellore Engineering College, by G. Viswanathan, the institution offers 20 undergraduate, 34 postgraduate, four integrated and four research programs.',
-        imageUrl: Rectangle628,
-        imageUrl2: Vit,
-        rank: '07',
-        feerange: '200k - 400k',
-        placementrange: '5 LPA - 10 LPA',
-        state: 'tamil_nadu', // State of the college
-    },
-    {
-        id: 'vit',
-        name: 'Vellore Institute of Technology',
-        description:
-            'VIT University, Vellore is a private university located in Vellore, Tamil Nadu, India. Founded in 1984, as Vellore Engineering College, by G. Viswanathan, the institution offers 20 undergraduate, 34 postgraduate, four integrated and four research programs.',
-        imageUrl: Rectangle628,
-        imageUrl2: Vit,
-        rank: '07',
-        feerange: '200k - 400k',
-        placementrange: '5 LPA - 10 LPA',
-        state: 'tamil_nadu', // State of the college
-    },
-    
-    // Add more college objects here as needed
-];
 
 // imageUrl: Rectangle628,
 // imageUrl2: Vit,
@@ -58,7 +29,7 @@ const initialFilters = [
         id: 'state',
         name: 'State',
         options: [
-            { value: 'delhi', label: 'White', checked: false },
+            { value: 'delhi', label: 'New Delhi', checked: false },
             { value: 'gujarat', label: 'Gujarat', checked: false },
             { value: 'rajasthan', label: 'Rajasthan', checked: true },
             { value: 'maharastra', label: 'Maharastra', checked: false },
@@ -114,11 +85,11 @@ export default function College() {
 
 
     // Function to handle search input change
-    
-    
-    
+
+
+
     // Call filterColleges when filters or collegeinfo change
-    
+
     const handleSearchInputChange = (event) => {
         setSearchInput(event.target.value);
     };
@@ -127,7 +98,7 @@ export default function College() {
     };
 
     const [currentPage, setCurrentPage] = useState(1);
-    const resultsPerPage = 4; // Number of results per page
+    const resultsPerPage = 6; // Number of results per page
 
     // Calculate the start and end index of the displayed results
     const startIndex = (currentPage - 1) * resultsPerPage;
@@ -137,7 +108,7 @@ export default function College() {
 
     // Generate an array of page numbers
 
-    const activePageClass = 'bg-secondary p-2 rounded-md text-white';
+    const activePageClass = 'text-primary font-semibold';
 
 
     const visiblePageNumbers = [];
@@ -259,15 +230,7 @@ export default function College() {
                                         {/* Filters */}
                                         <form className="mt-4 border-gray-200">
                                             <h3 className="sr-only">Categories</h3>
-                                            <ul role="list" className="px-2 py-3 font-medium text-gray-900">
-                                                {subCategories.map((category) => (
-                                                    <li key={category.name}>
-                                                        <a href={category.href} className="block px-2 py-3">
-                                                            {category.name}
-                                                        </a>
-                                                    </li>
-                                                ))}
-                                            </ul>
+
 
                                             {filters.map((section) => (
                                                 <Disclosure as="div" key={section.id} className="border-t border-gray-200 px-4 py-6">
@@ -318,7 +281,7 @@ export default function College() {
                         </Dialog>
                     </Transition.Root>
 
-                    <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                    <main className="mx-12 max-w-7xl px-4 sm:px-6 lg:px-8">
                         <div className="flex items-baseline justify-between border-gray-200  pt-12">
 
                             <div className="flex items-center ml-auto">
@@ -388,14 +351,16 @@ export default function College() {
                             </div>
                         </div>
 
+
+
                         <section aria-labelledby="products-heading" className="pb-24">
                             <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-4">
-                                <form className="hidden border p-5 border- gray-300 lg:block pt-6">
+                                <form className="hidden border p-5 border-gray-200 gray-300 lg:block pt-6">
                                     <ul>
-                                        <Disclosure as="div" className="border-gray-200">
+                                        <Disclosure as="div" defaultOpen={true} className="border-b border-gray-200">
                                             {({ open }) => (
                                                 <>
-                                                    <h3 className="-my-3 flow-root">
+                                                    <h3 className={`-my-3 flow-root ${open ? 'border-b border-transparent' : 'border-b border-gray-200'}`}>
                                                         <Disclosure.Button className="flex w-full items-center justify-between bg-white py-3 text-sm text-gray-400 hover:text-gray-500">
                                                             <span className="font-medium text-gray-900">Search</span>
                                                             <span className="ml-6 flex items-center">
@@ -427,16 +392,10 @@ export default function College() {
                                         </Disclosure>
                                     </ul>
                                     <h3 className="sr-only">Categories</h3>
-                                    <ul role="list" className="space-y-4 border-b border-gray-200 pb-6 text-sm font-medium text-gray-900">
-                                        {subCategories.map((category) => (
-                                            <li key={category.name}>
-                                                <a href={category.href}>{category.name}</a>
-                                            </li>
-                                        ))}
-                                    </ul>
+
 
                                     {filters.map((section) => (
-                                        <Disclosure as="div" key={section.id} className="border-b border-gray-200 py-6">
+                                        <Disclosure as="div" defaultOpen={true} key={section.id} className="border-b border-gray-200 py-6">
                                             {({ open }) => (
                                                 <>
                                                     <h3 className="-my-3 flow-root">
@@ -516,14 +475,14 @@ export default function College() {
 
 
                         </section>
-                        <div className="mt-2 mb-16 flex items-center justify-end space-x-4">
+                        <div className="mt-2 mb-16 flex items-center justify-center space-x-4">
                             {/* Display previous page button */}
                             {currentPage > 1 && (
                                 <button
                                     onClick={() => handlePageChange(currentPage - 1)}
                                     className="btn-pagination bg-primary text-white p-2 rounded-lg"
                                 >
-                                    &lt; Prev
+                                    &lt;
                                 </button>
                             )}
 
@@ -544,7 +503,7 @@ export default function College() {
                                     onClick={() => handlePageChange(currentPage + 1)}
                                     className="btn-pagination bg-primary text-white p-2 rounded-lg"
                                 >
-                                    Next &gt;
+                                    &gt;
                                 </button>
                             )}
                         </div>

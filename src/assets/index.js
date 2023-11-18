@@ -17,6 +17,8 @@ import image18 from "./images/image18.png"
 import Group19237 from "./images/Group19237.png"
 import Rectangle628 from "./images/Rectangle628.png"
 import Vit from "./images/vit.png"
+import image25 from "./images/image25.png"
+import vit2 from "./images/vit2.png"
 
 // NAVBAR IMPORTS and exports...
 import Logo from "./images/Navbar/Logo.svg"; 
@@ -52,6 +54,8 @@ export {
     Group19237,
     Rectangle628,
     Vit,
+    image25,
+    vit2,
 }; 
 
 
@@ -115,3 +119,13 @@ export {
     twitter, 
     website,
 }; 
+
+
+//College info
+import collegeImage from './images/College/ClipPathGroup.svg';
+import collegeImage2 from './images/College/ClipPathGroup1.svg';
+import vector from './images/College/Vector.svg';
+import vector1 from './images/College/Vector1.svg';
+import perc from './images/College/perc.svg';
+import perc1 from './images/College/perc1.svg';
+export {collegeImage,collegeImage2,vector,vector1,perc,perc1};
